@@ -1,0 +1,264 @@
+*, body, html, ul {
+  margin: 0;
+  padding: 0; }
+
+#header {
+  display: flex; }
+
+.responsive-nav {
+  display: flex;
+  padding-left: 20px; }
+
+.responsive-icon {
+  width: 67px;
+  height: 60px;
+  background-color: #1f2529;
+  display: none;
+  color: white;
+  border: none; }
+  .responsive-icon i {
+    width: 31px;
+    height: 4px;
+    font-size: 20px; }
+
+.res-a {
+  font-size: 24px;
+  line-height: 26px;
+  color: #ebebeb;
+  font-weight: 400;
+  font-family: "Montserrat";
+  padding: 15px;
+  display: none;
+  color: white;
+  transition: all 0.5s ease; }
+  .res-a:hover {
+    color: #CECFD0; }
+
+nav {
+  z-index: 1;
+  width: 100%;
+  height: 67px;
+  box-sizing: border-box;
+  background-color: #373c3f;
+  padding-left: 20px; }
+
+.menu {
+  z-index: 2; }
+  .menu ul {
+    width: 100%; }
+    .menu ul li {
+      list-style: none; }
+      .menu ul li a {
+        float: left;
+        line-height: 26px;
+        font-weight: 400;
+        font-family: "Montserrat";
+        display: block;
+        padding: 20px;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        transform: all 0.5s ease; }
+        .menu ul li a:hover {
+          color: #CECFD0; }
+
+#banner {
+  box-sizing: border-box;
+  padding-top: 10%;
+  width: 100%;
+  padding-left: 60px;
+  height: 590px;
+  background-image: linear-gradient(-29deg, #0789a2 0%, #18b3c5 100%); }
+
+.banner-head {
+  letter-spacing: 3px;
+  width: 804px;
+  height: 170px;
+  font-size: 60px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat"; }
+
+.blaz_arrow {
+  width: 610px;
+  font-size: 36px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Quicksand"; }
+
+.blaz {
+  font-size: 34px;
+  line-height: 65px;
+  color: #088ca5;
+  font-weight: 400;
+  font-family: "Montserrat"; }
+
+.col-lg-12 {
+  padding: 0 !important; }
+
+.robin {
+  box-sizing: border-box; }
+  .robin .robinText {
+    width: 80%;
+    font-size: 30px;
+    line-height: 65px;
+    color: #9282a0;
+    font-weight: 400;
+    font-family: "Montserrat";
+    display: block;
+    background-color: #27212c;
+    padding: 85px 50px; }
+
+span {
+  display: block; }
+
+.box_icon {
+  width: 20%;
+  background-color: #bb3183;
+  font-size: 50px;
+  line-height: 65px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Quicksand";
+  padding: 85px 0px;
+  text-align: center; }
+
+.col-lg-4 {
+  padding: 0 !important;
+  box-sizing: border-box !important; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+.gal_icon {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 100%;
+  background-color: #5a0ea0;
+  margin: 0 auto;
+  padding: 28% 0 0 0;
+  font-size: 118px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Quicksand";
+  text-align: center; }
+
+.footer {
+  background-color: #eeeaea;
+  padding-left: 50px; }
+  .footer h1 a {
+    width: 505px;
+    font-size: 30px;
+    line-height: 44px;
+    color: #088ca5;
+    font-weight: 400;
+    font-family: "Montserrat";
+    filter: drop-shadow(0px 1px 0px #ffffff);
+    text-decoration: none; }
+  .footer p {
+    width: 505px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #515151;
+    font-weight: 400;
+    font-family: "Montserrat";
+    filter: drop-shadow(0px 1px 0px #ffffff); }
+
+@media only screen and (max-width: 640px) {
+  nav {
+    height: 60px;
+    padding-left: 0; }
+
+  .responsive-icon, .res-a {
+    display: block; }
+
+  .menu {
+    display: none;
+    background-color: yellowgreen !important; } }
+@media only screen and (max-width: 640px) {
+  .menu.resp {
+    display: block; }
+    .menu.resp ul li a {
+      display: block;
+      background-color: #373c3f;
+      padding: 5px 35px;
+      float: none;
+      text-align: left; } }
+@media only screen and (max-width: 980px) {
+  #banner {
+    height: 546px; }
+
+  .banner-head {
+    font-size: 50px;
+    width: 529px; }
+
+  .blaz_arrow, .blaz {
+    width: 519px;
+    font-size: 30px; } }
+@media only screen and (max-width: 640px) {
+  #banner {
+    height: 537px; }
+
+  .banner-head {
+    font-size: 48px;
+    width: 524px; }
+
+  .blaz_arrow, .blaz {
+    width: 504px;
+    font-size: 30px; } }
+@media only screen and (max-width: 583px) {
+  .banner-head {
+    font-size: 32px;
+    width: 410px; }
+
+  .blaz_arrow, .blaz {
+    width: 366px;
+    font-size: 25px; } }
+@media only screen and (max-width: 487px) {
+  .banner-head {
+    font-size: 23px;
+    width: 283px; }
+
+  .blaz_arrow, .blaz {
+    width: 269px;
+    font-size: 25px; } }
+@media only screen and (max-width: 320px) {
+  #banner {
+    height: 346px; }
+
+  .banner-head {
+    font-size: 21px;
+    width: 259px; }
+
+  .blaz_arrow, .blaz {
+    width: 251px;
+    font-size: 21px; } }
+@media only screen and (max-width: 980px) {
+  .robin .robinText, .robin .box_icon {
+    height: 143px;
+    padding-top: 44px; }
+  .robin .robinText {
+    padding: 44px 0 0 38px; }
+
+  .gal_icon {
+    padding-top: 6%; } }
+@media only screen and (max-width: 640px) {
+  .robin .robinText, .robin .box_icon {
+    height: 143px;
+    padding-top: 41px;
+    font-size: 22px; }
+  .robin .robinText {
+    padding: 41px 0 0 48px; } }
+@media only screen and (max-width: 320px) {
+  .robin .robinText, .robin .box_icon {
+    box-sizing: border-box;
+    height: 90px;
+    padding-top: 5px;
+    font-size: 15px; }
+  .robin .robinText {
+    padding: 18px 0 0 11px; } }
+
+/*# sourceMappingURL=style.css.map */
